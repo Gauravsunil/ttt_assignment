@@ -12,9 +12,9 @@ CLone this repository open the folder in cmd and run command npm install it will
 # Server runs at localhost:5000
 
 # Algorithm for Encode/Decode String
-Here i have used Ceasar Cipher Algorithm to encode/decode the string
-So i have first created a object of alphabets and numbers where the key and values both i have used as alphabets where the key and value the differ by 13
-e.g- a:'n' and n:'a' and printed the value corresponding to that key. So that how this algorithm is encoding and decoding the string.
+here i have converted the string to the base64 but i haven't used inbuilt buffer method to change the base
+Here i have used my algorithm to chnge the string base to 64 and it will also reduce the length of string 
+here i have firstly created a variable with all cases of alphabets(upper,lowers,+,-,/) and run function and convert the string to shortened string
 
 # Features
 # 1.User Enter Number 
@@ -29,15 +29,10 @@ It will give error enter Lowercase only
 ![Test Image 2](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(150).png)
 
 # 3. Enter String
-It will encode the string into alphanumeric using the algorithm i  have used
+It will encode the string and reduce the length of the string as well into alphanumeric using the algorithm i  have used
 
-![Test Image 3](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(144).png)
+![Test Image 8](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(153).png)
 
-![Test Image 4](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(146).png)
+![Test Image 9](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(154).png)
 
 
-# 4.Enter Encoded String to Decode
-
-![Test Image 5](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(145).png)
-
-![Test Image 6](https://github.com/Gauravsunil/ttt_assignment/blob/master/screenshots/Screenshot%20(148).png)
