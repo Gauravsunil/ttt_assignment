@@ -15,8 +15,8 @@ CLone this repository open the folder in cmd and run command npm install it will
 here i have converted the string to the base64 but i haven't used inbuilt buffer method to change the base
 Here i have used my algorithm to chnge the string base to 64 and it will also reduce the length of string 
 here i have firstly created a variable with all cases of alphabets(upper,lowers,+,-,/) like 
-var DIGITS="abcdefghijklmnopqrstuvwxyABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-/" and run different function and calculate multiplybydigits , add etc  and convert the string to shortened string
-andd the algorithm you can find in routes/userRouter
+var DIGITS="abcdefghijklmnopqrstuvwxyABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-/" and run different function and calculate multiplyByNumber() , add() and adding those to the digit[] array and and saving in out variable and simply passing it using res.send(out) to our axios req   and thats how I convert the string to shortened string
+and the algorithm you can find in routes/userRouter
 
 
 # Features
